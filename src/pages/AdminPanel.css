@@ -1,0 +1,62 @@
+/* AdminPanel.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Style for h3 */
+h3 {
+  font-family: 'Righteous', sans-serif;
+  text-align: center;
+  padding: 8px;
+  padding-bottom: 20px;
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 576px) {
+  h3 {
+    text-align: center; /* Center align on small screens */
+  }
+  .multiline-button {
+    width: 100%; /* Full width on small screens */
+    margin: 5px 0; /* Adjust margin for small screens */
+  }
+}
+
+/* Style for container */
+.container {
+  background-color: #3b3937;
+  padding: 0 20px; /* Add padding to both left and right sides */
+}
+
+/* Style for buttons */
+.multiline-button {
+  margin: 10px; /* Adjust margin for space between buttons */
+  background-color: #FEA116;
+  border: none;
+  border-radius: 8px;
+  width: 200px; /* Set consistent width for the buttons */
+  height: auto; /* Allow height to adjust based on content */
+  padding: 20px 0; /* Add padding for vertical spacing */
+  font-family: 'Righteous', sans-serif;
+  font-size: 16px;
+  color: #000000; /* Change text color to black */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center align text */
+}
+
+/* Ensure buttons are centered within columns */
+.col {
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+}
+
+/* Additional adjustments for larger screens */
+@media (min-width: 768px) {
+  .container {
+    padding: 0 40px; /* Increase padding for larger screens */
+  }
+}

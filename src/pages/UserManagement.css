@@ -1,0 +1,51 @@
+/* UserManagement.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Style for h3 */
+h3 {
+  font-family: 'Righteous', sans-serif;
+  text-align: center;
+  padding: 8px;
+  white-space: nowrap; /* Prevent line wrapping */
+  /* overflow: hidden; Hide overflowing text */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+}
+
+    
+
+
+/* Align text in center */
+.text-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Align text to the right */
+.text-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 576px) {
+  .text-center, .text-right {
+    justify-content: center; /* Center align on small screens */
+  }
+}
+#backbutton,#userrequestbutton{
+margin-top: 10px;
+background-color: #FEA116;
+border-radius: 8px;
+border: none;
+
+}
+#backbutton{
+    margin-left: 30%;
+
+}
+#userrequestbutton{
+margin-left: 30%;
+}

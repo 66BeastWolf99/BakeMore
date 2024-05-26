@@ -1,0 +1,101 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Global Styles */
+body {
+  background-color: #FFE8C9; /* Replace with your desired color */
+  margin: 0;
+  padding: 0;
+}
+
+label, span {
+  font-family: 'Righteous', sans-serif;
+}
+
+#textforid {
+  text-align: center;
+}
+
+#submitbtn {
+  background: #FFE8C9;
+  font-family: 'Righteous', sans-serif;
+  color: black;
+  display: block; /* Ensure button takes up full width of container */
+  margin: 0 auto; /* Automatically center the button horizontally */
+  border: 2px solid transparent; /* Add a transparent border */
+  padding: 10px 20px; /* Add padding to the button */
+  transition: all 0.3s ease; /* Add smooth transition effect */
+}
+
+#submitbtn:hover {
+  background-color: #FEB03C; /* Change background color on hover */
+  border-color: #FEB03C; /* Change border color on hover */
+  color: #FFE8C9; /* Change text color on hover */
+}
+
+#textmain {
+  font-size: 25px;
+  text-align: center;
+  display: block; /* Ensure text takes up full width of container */
+  margin: 0 auto; /* Automatically center the text horizontally */
+}
+
+/* Form Container */
+.form-container {
+  width: 90%; /* Adjusted width for better fit on small screens */
+  margin: 0 auto;
+  margin-top: 10%; /* Adjust this value as needed */
+  padding: 20px;
+  background-color: #FEB03C; /* Background color */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
+}
+
+/* Form Control Margin */
+.form-control {
+  margin-bottom: 10px;
+}
+
+/* Center align content in the counttext class */
+.counttext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#add {
+  background-color: #FFE8C9;
+  border-radius: 8px;
+  border: none;
+  padding: 7px 15px; /* Adjust padding for better appearance */
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#add:hover {
+  background-color: #e2c7a4; /* Darken button on hover */
+}
+
+#renum {
+  width: 60px; /* Make the number input smaller */
+  padding: 5px; /* Add padding for better appearance */
+  height: 30px; /* Adjust height */
+  border-radius: 8px; /* Add border radius */
+  border: none;
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 576px) {
+  .form-container {
+    width: 90%; /* Increase width for better fit on small screens */
+    padding: 10px; /* Reduce padding */
+    margin-top: 20%; /* Adjust top margin for small screens */
+  }
+
+  #textmain {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+}

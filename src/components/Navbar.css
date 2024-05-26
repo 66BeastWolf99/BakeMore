@@ -1,0 +1,79 @@
+body {
+  background-color: #FFE8C9;
+}
+
+#navbar {
+  background-color: #FEA116;
+  position: relative;
+}
+
+#logo {
+  width: 150px;
+  height: 60px;
+}
+
+/* Responsive Styles for Logo */
+@media (max-width: 1200px) {
+  /* For large desktops */
+  #logo {
+    width: 140px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For tablets and below */
+  #logo {
+    width: 130px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For small tablets and large phones */
+  #logo {
+    width: 120px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For mobile phones */
+  #logo {
+    width: 110px;
+    height: 40px;
+  }
+}
+
+#offcanvasNavbar {
+  background: #FFE8C9;
+}
+
+.bi-person-fill {
+  color: white;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.offcanvas-header {
+  background-color: #FEA116;
+}
+
+.offcanvas-title {
+  color: #fff;
+}
+
+.offcanvas-body {
+  background-color: #FFE8C9;
+}
+
+.offcanvas-body .nav-link {
+  color: #333 !important;
+  transition: color 0.3s ease;
+}
+
+.offcanvas-body .nav-link:hover {
+  color: #FEA116 !important;
+}

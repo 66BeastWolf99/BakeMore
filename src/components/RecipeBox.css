@@ -1,0 +1,55 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Align items vertically */
+}
+
+/* Colored Box */
+.colored-box {
+  background-color: #FEB03C; /* Example background color */
+  color: #000000; /* Example text color */
+  padding: 20px;
+  border-radius: 12px;
+  width: 85%; /* Set width to 85% of the page */
+  margin-top: 10px; /* Adjust margin to create space between navbar and box */
+}
+
+/* Content within Colored Box */
+.content {
+  display: flex;
+  justify-content: space-between; /* Align items and links to the right */
+  align-items: center; /* Align items and links to the center vertically */
+}
+
+/* Labels */
+.labels {
+  display: flex;
+  justify-content: space-between; /* Align labels to the right */
+  align-items: center; /* Align labels to the center vertically */
+}
+
+/* Font for Label */
+label {
+  font-family: 'Righteous', sans-serif;
+  color: #000000; /* Set color for labels */
+}
+
+/* Hover effect for Labels */
+.labels label:hover {
+  text-decoration: underline; /* Add underline effect on hover */
+}
+
+/* Styling for Label 1 */
+#label1 {
+  color: #000000; /* Example color for label 1 */
+}
+
+/* Styling for Label 2 */
+#label2 {
+  color: #a34912; /* Example color for label 2 */
+}

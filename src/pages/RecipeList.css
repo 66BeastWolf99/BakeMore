@@ -1,0 +1,45 @@
+/* RecipeList.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Style for h3 */
+h3 {
+  font-family: 'Righteous', sans-serif;
+  text-align: center;
+  padding: 8px;
+}
+
+/* Style for the add button */
+#addbutton {
+  background-color: #FFE8C9;
+  font-family: 'Righteous', sans-serif;
+  display: block;
+  margin: 0 auto; /* Center the button horizontally */
+  text-align: center; /* Center the button text */
+  padding: 15px 30px; /* Add padding to the button */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Add cursor pointer */
+  margin-top: 25px;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+  width: 50%; /* Set initial width */
+}
+
+/* Hover styles for the button */
+#addbutton:hover {
+  background-color: #FFDAB9; /* Change background color on hover */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  #addbutton {
+    width: 70%; /* Adjust button width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #addbutton {
+    width: 80%; /* Adjust button width for even smaller screens */
+  }
+}
